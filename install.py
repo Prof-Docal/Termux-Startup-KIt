@@ -10,9 +10,9 @@ print("    | |  __/ |  | | | | | | |_| |>  <   ____) | || (_| | |  | |_| |_| | |
 print("    |_|\___|_|  |_| |_| |_|\__,_/_/\_\ |_____/ \__\__,_|_|   \__|\__,_| .__/  |_|\_\_|\__|  ")
 print("                                                                      | |                   ")
 print("                                                                      |_|                   ")
-print()
+print
 print("                   <===============Created By Prof Docal===============>")
-print()
+print
 
 print("UPDATING AND UPGRADING TERMUX PACKAGES...")
 os.system("apt update")
@@ -20,12 +20,12 @@ os.system("apt upgrade")
 os.system("pkg update")
 os.system("pkg upgrade")
 print("UPDATES AND UPGRADES COMPLETED!")
-print()
+print
 
 print("SETTING UP TERMUX STORAGE...")
 os.system("termux-setup-storage")
 print("SETUP DONE!")
-print()
+print
 
 print("INSTALLING TERMUX STARTUP PACKAGES...")
 os.system("apt install git")
@@ -45,7 +45,7 @@ os.system("pkg install cmatrix")
 os.system("apt install zip")
 os.system("apt install unzip")
 print("TERMUX STARTUP PACKAGES INSTALLATION DONE!")
-print()
+print
 
 print("Thank you for using my program.")
 print("Termux is Up and Ready to go!!!")
